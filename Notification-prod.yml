@@ -1,0 +1,22 @@
+# ===================================================================
+# JHipster Spring Cloud Config.
+# ===================================================================
+
+firebase:
+  server-key: AAAAAHmj-cY:APA91bG17k5d8kCNXRK7Jq0w77jpqJJ8XnLL4EwjROmT06Ao7pAUdYK50GztUweDCNokAyxddXPHmtIznRcjZ5O631ry2brUI0afyHe4uHYQT3jRFP0LFHDcNqT7tRyduiJ0Bz84lF9u
+  api-url: https://fcm.googleapis.com/fcm/send
+
+mail:
+  password: thanthanh
+  sender: biglabs.ssm@gmail.com
+  subject: VinFin-Notification
+  username: biglabs.ssm@gmail.com
+sms:
+  subject: VinFin-Notification
+twilio:
+  account:
+    sid: ACfe9a3f460c82a34e7c90025f00e0abb1
+  auth:
+    enabled: true
+    token: d37db7955926e3fb56fe06958beceffa
+  phonenumber: +16362491217

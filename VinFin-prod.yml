@@ -1,0 +1,22 @@
+# ===================================================================
+# JHipster Spring Cloud Config.
+# ===================================================================
+
+application:
+        endorsementCount: 3
+        comingLoanProductThreshold: 3
+        stoppingLoanProductThreshold: 3
+        latestFundedDateThreshold: 3
+        stoppedLoanProductThreshold: 0
+        landingPage: http://www.vinfin.io
+        facebookPage: https://www.facebook.com/VinFin-1673281302787668
+        twitterPage: https://twitter.com/VinFinOfficial
+        linkedinPage: https://www.linkedin.com/in/VinFin/
+        timezone: Asia/Ho_Chi_Minh
+
+keycloak:
+    ribbon:
+        listOfServers: http://192.168.1.141:9080
+
+token:
+    expiredPeriod: 86400000 # 1 day in millisecond
