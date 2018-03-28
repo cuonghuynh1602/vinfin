@@ -1,4 +1,8 @@
 configserver:
     name: JHipster Registry config server 1
-    status: Connected to the JHipster Registry config server, using Git's gitlabs
-
+    status: Connected to the JHipster Registry config server, using Git's gitlabsjhipster:
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
