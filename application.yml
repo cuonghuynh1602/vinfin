@@ -1,8 +1,4 @@
 configserver:
-    name: JHipster Registry config server
+    name: JHipster Registry config server 1
     status: Connected to the JHipster Registry config server, using Git's gitlabs
-jhipster:
-    security:
-        authentication:
-            jwt:
-                key-uri: http://192.168.1.141:9080/auth/realms/VinFin
+
