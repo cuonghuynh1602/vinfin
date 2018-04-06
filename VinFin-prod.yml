@@ -16,7 +16,7 @@ application:
 
 keycloak:
     ribbon:
-        listOfServers: http://13.250.95.201:9080
+        listOfServers: http://52.220.114.4:9080
 
 token:
     expiredPeriod: 86400000 # 1 day in millisecond
