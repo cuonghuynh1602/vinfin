@@ -16,7 +16,7 @@ application:
 
 keycloak:
     ribbon:
-        listOfServers: http://52.220.114.4:9080
+        listOfServers: http://uat.keycloak.vinfin.io:9080
 
 token:
     expiredPeriod: 86400000 # 1 day in millisecond
