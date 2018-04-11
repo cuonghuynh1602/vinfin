@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Git clone') {
       steps {
-        sh 'cd /jenkins && git clone git@github.com:VinaTech/Mozo-NG.git && pwd'
+        sh 'cd /jenkins && git clone git@github.com:VinaTech/Mozo-NG.git && ll'
       }
     }
   }
